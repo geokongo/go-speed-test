@@ -87,7 +87,7 @@ div.main-speedtest-container{
 .speedtest-loader-content.result button {
     height: 120px;
     width: 120px;
-    margin-top: 16px;
+    margin-top: 10px;
     font-size: 35px;
 }
 
@@ -131,13 +131,13 @@ div.main-speedtest-container{
 .speedtest-content {
     display: flex;
     width: 100%;
-    font-size: 54px;
-    margin: 2px 0 12px 0;
+    font-size: 64px;
+    margin: 2px 0 2px 0;
     flex-direction: column;
 }
 
 .speedtest-content small {
-    font-size: 40%;
+    font-size: 50%;
 }
 
 
