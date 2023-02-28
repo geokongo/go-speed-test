@@ -36,12 +36,8 @@ class Init{
      * @return string HTML code for the speed test
      */
     public function gospeedtest_ob(){
-        
-        $content = '<style> .entry-title, .wp-block-post-title {display: none;}</style>';
-        $content .= '<div class="main-speedtest-container"><div class="speedtest-container"><div class="speedtest-loader-widget">';
-        $content .= '<h1>CHECK SPEED</h1><span class="speedtest-loader speedtest-hide"></span><div class="speedtest-loader-content">';
-        $content .= '<div class="speedtest-content speedtest-hide">24<small>Mbps</small></div><button id="speedtest-button">GO</button></div></div></div></div>';
-        
+
+        $content = file_get_contents("$this->plugin_path/templates/speed.php");
         return $content;
             
     }
