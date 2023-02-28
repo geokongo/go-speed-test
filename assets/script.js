@@ -36,7 +36,7 @@
         document.querySelector('.speedtest-loader').classList.add('speedtest-hide');
         document.querySelector('.speedtest-content').classList.remove('speedtest-hide');
 
-        e.target.innerText = 'AGAIN';
+        e.target.innerText = 'GO';
     }
 
 })
